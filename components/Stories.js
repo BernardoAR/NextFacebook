@@ -6,6 +6,13 @@ const stories = [
     profile: 'https://links.papareact.com/snf',
   },
   { name: 'Bill Gates', src: 'https://links.papareact.com/4u4', profile: 'https://links.papareact.com/zvy' },
+  { name: 'Bill Gates', src: 'https://links.papareact.com/4u4', profile: 'https://links.papareact.com/zvy' },
+  {
+    name: 'Mark Zuckerberg',
+    src: 'https://links.papareact.com/xql',
+    profile: 'https://links.papareact.com/snf',
+  },
+  { name: 'Bill Gates', src: 'https://links.papareact.com/4u4', profile: 'https://links.papareact.com/zvy' },
 ];
 function Stories() {
   return (
