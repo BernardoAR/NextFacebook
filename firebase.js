@@ -1,5 +1,5 @@
 import firebase from 'firebase';
-
+import 'firebase/storage';
 const firebaseConfig = {
   apiKey: 'AIzaSyAy3sr6qfjmwhERQcCN72t8FICHQ0-8i5I',
   authDomain: 'nextfbclone.firebaseapp.com',
@@ -9,6 +9,6 @@ const firebaseConfig = {
   appId: '1:589658202398:web:17001b22fde4bd59f3690f',
 };
 const app = !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app;
-const db = app.firestore();
+const db = firebase.firestore();
 const storage = firebase.storage();
 export { db, storage };
