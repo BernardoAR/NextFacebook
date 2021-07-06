@@ -44,13 +44,13 @@ function Header() {
         {/* Imagem de perfil */}
         <Image
           onClick={signOut}
-          class='rounded-full cursor-pointer'
+          className='rounded-full cursor-pointer'
           src={session.user.image}
           width='40'
           height='40'
           layout='fixed'
         />
-        <p className='whitespace-nowrap font-semibold pr-3'>Bernardo</p>
+        <p className='whitespace-nowrap font-semibold pr-3'>{session.user.name}</p>
         <ViewGridIcon className='icon' />
         <ChatIcon className='icon' />
         <BellIcon className='icon' />
