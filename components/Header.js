@@ -20,7 +20,7 @@ function Header() {
       {/* Esquerda */}
       <div className='flex items-center'>
         <Image src='https://links.papareact.com/5me' width={40} height={40} layout='fixed' />
-        <div className=' flex ml-2 items-center rounded-full bg-gray-200 p-2'>
+        <div className='flex ml-2 items-center rounded-full bg-gray-200 p-2'>
           <SearchIcon className='h-6 text-gray-600' />
           <input
             className='hidden md:inline-flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink'
@@ -50,7 +50,7 @@ function Header() {
           height='40'
           layout='fixed'
         />
-        <p className='whitespace-nowrap font-semibold pr-3'>{session.user.name}</p>
+        <p className='hidden lg:inline-flex whitespace-nowrap font-semibold pr-3'>{session.user.name}</p>
         <ViewGridIcon className='icon' />
         <ChatIcon className='icon' />
         <BellIcon className='icon' />
